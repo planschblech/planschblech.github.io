@@ -109,13 +109,7 @@
         <h2>Fünf Jungs, ein Blech</h2>
         <p class="section-sub">Klick dich durch die Besetzung und lern uns kennen.</p>
       </div>
-      <div class="member-tabs wrap reveal" role="tablist" aria-label="Mitglieder">
-        <button class="member-tab active" data-member="vincent"><span>V</span><b>Vincent Eckert</b><small>Trompete</small></button>
-        <button class="member-tab" data-member="jonas"><span>J</span><b>Jonas Hubert</b><small>Trompete</small></button>
-        <button class="member-tab" data-member="julius"><span>J</span><b>Julius Eckert</b><small>Bariton</small></button>
-        <button class="member-tab" data-member="elias"><span>E</span><b>Elias Froese</b><small>Posaune</small></button>
-        <button class="member-tab" data-member="manuel"><span>M</span><b>Manuel Ditze</b><small>Posaune</small></button>
-      </div>
+      <div class="member-tabs wrap reveal" id="memberTabs" role="tablist" aria-label="Mitglieder"></div>
       <div class="member-detail wrap reveal" id="memberDetail" aria-live="polite"></div>
     </section>
 
@@ -131,12 +125,7 @@
           <button id="galleryNext" type="button" aria-label="Nächste Bilder">→</button>
         </div>
       </div>
-      <div class="gallery-track reveal" id="galleryTrack">
-        <figure class="gallery-card tall"><img src="assets/pool-front.jpeg" alt="Planschblech im Pool von vorne"><figcaption><b>WO ALLES BEGANN</b><small>Pool Session · Reuth</small></figcaption></figure>
-        <figure class="gallery-card wide"><img src="assets/live-group.jpeg" alt="Planschblech Liveauftritt"><figcaption><b>LIVE IN FORCHHEIM</b><small>Sommer, Brass & Publikum</small></figcaption></figure>
-        <figure class="gallery-card medium"><img src="assets/live-duo.jpeg" alt="Zwei Musiker von Planschblech"><figcaption><b>UNTER DER LINDE</b><small>Auftritt in Forchheim</small></figcaption></figure>
-        <figure class="gallery-card tall"><img src="assets/pool-side.jpeg" alt="Planschblech im Pool von der Seite"><figcaption><b>PLANSCH</b><small>Der Name ist Programm</small></figcaption></figure>
-      </div>
+      <div class="gallery-track reveal" id="galleryTrack"></div>
     </section>
 
     <section id="videos" class="videos wrap section-space reveal">
@@ -169,36 +158,8 @@
           <p class="intro">Unser aktuelles Repertoire – von Pop und Jazz über Swing bis zur traditionellen Blasmusik.</p>
           <div class="repertoire-badge">♫ Wunschstück? Einfach fragen.</div>
         </div>
-        <div class="accordion">
-          <details open>
-            <summary><span class="icon yellow-bg">🎸</span><b>Pop / Rock</b><span class="plus">+</span></summary>
-            <div class="accordion-body song-list">
-              <span><b>Steppin' Out</b></span><span><b>Yellow Submarine</b><em>Nr. 76</em></span><span><b>Mamma Mia</b></span><span><b>Copacabana</b><em>Nr. 84+</em></span><span><b>Tom and Jerry</b><em>Nr. 149</em></span><span><b>Sweet Caroline</b><em>Nr. 107</em></span>
-            </div>
-          </details>
-          <details>
-            <summary><span class="icon">⛰️</span><b>Volksmusik / Traditionell</b><span class="plus">+</span></summary>
-            <div class="accordion-body song-list">
-              <span><b>Tiroler Adlermarsch</b><em>Nr. 38</em></span><span><b>Trompetenpolka</b><em>Nr. 33</em></span>
-            </div>
-          </details>
-          <details>
-            <summary><span class="icon yellow-bg">🎷</span><b>Jazz</b><span class="plus">+</span></summary>
-            <div class="accordion-body song-list">
-              <span><b>Hallelujah Drive</b></span><span><b>Music to Watch Girls By</b><em>Nr. 81</em></span><span><b>Spanish Flea</b><em>Nr. 83</em></span><span><b>Tijuana Taxi</b><em>Nr. 84</em></span><span><b>Down by the Riverside</b><em>Nr. 30</em></span>
-            </div>
-          </details>
-          <details>
-            <summary><span class="icon">🎺</span><b>Swing</b><span class="plus">+</span></summary>
-            <div class="accordion-body song-list">
-              <span><b>String of Pearls</b><em>Nr. 151</em></span><span><b>Second Waltz</b><em>Nr. 42</em></span><span><b>Share My Yoke</b><em>Nr. 49</em></span>
-            </div>
-          </details>
-          <details>
-            <summary><span class="icon yellow-bg">♬</span><b>Ballade</b><span class="plus">+</span></summary>
-            <div class="accordion-body song-list"><span><b>You Raise Me Up</b><em>Nr. 102</em></span></div>
-          </details>
-        </div>
+        <div class="accordion" id="repertoireAccordion"></div>
+
       </div>
     </section>
 
@@ -236,6 +197,7 @@
     </div>
     <div class="wrap footer-bottom"><span>© 2026 Planschblech · Est. 2026 · Forchheim</span><div><a href="#">Impressum</a><a href="#">Datenschutz</a></div></div>
   </footer>
+  <script src="inhalte.js"></script>
   <script src="script.js"></script>
 </body>
 </html>

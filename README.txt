@@ -1,14 +1,50 @@
-PLANSCHBLECH WEBSITE
-====================
+PLANSCHBLECH WEBSITE – SCHNELL BEARBEITEN
+==========================================
 
-1. index.html doppelklicken -> Website lokal öffnen.
-2. Fotos in den Ordner assets legen und die Platzhalter in index.html ersetzen.
-3. Texte/Namen/Repertoire können direkt in index.html bzw. script.js geändert werden.
-4. Kostenlos veröffentlichen: z.B. GitHub Pages oder Cloudflare Pages.
-5. Die Buchungsanfrage funktioniert ohne Server: Sie öffnet das E-Mail-Programm des Besuchers.
+Die wichtigste Datei ist jetzt:
 
-Dateien:
-- index.html: Inhalt und Aufbau
-- style.css: Farben, Layout, Handyansicht
-- script.js: Mitglieder-Tabs, Galerie, Buchungsformular
-- assets/logo.png: aus deiner Vorlage ausgeschnittenes Planschblech-Logo
+  inhalte.js
+
+Dort kannst du ohne HTML-Kenntnisse ändern:
+- E-Mail & Instagram
+- Startseitentext
+- Anzahl Musiker / Stücke / Gründungsjahr
+- alle 5 Mitglieder + Beschreibung + Tags
+- komplettes Repertoire
+- Galerie-Bilder + Bildtexte
+
+SO ÄNDERST DU ETWAS DIREKT AUF GITHUB
+--------------------------------------
+1. Öffne dein Repository planschblech.github.io
+2. Klicke auf die Datei "inhalte.js"
+3. Oben rechts auf das Stift-Symbol / "Edit this file"
+4. Ändere nur die Texte zwischen den Anführungszeichen
+5. Oben rechts "Commit changes..."
+6. Noch einmal "Commit changes"
+7. Nach kurzer Zeit aktualisiert sich planschblech.github.io automatisch
+
+NEUES REPERTOIRE-STÜCK
+----------------------
+Beispiel in einer Kategorie:
+['Sweet Caroline','107']
+
+Ein neues Stück einfach mit Komma dahinter ergänzen:
+['Sweet Caroline','107'],
+['Neues Lied','123']
+
+Wenn es keine Nummer hat:
+['Neues Lied','']
+
+GALERIE-BILD ÄNDERN
+-------------------
+1. Bild in GitHub in den Ordner assets hochladen.
+2. In inhalte.js z.B. ändern:
+   bild: 'assets/mein-neues-bild.jpg'
+
+WICHTIG
+-------
+- Kommas, eckige Klammern und Anführungszeichen nicht versehentlich löschen.
+- style.css = Aussehen der Seite
+- index.html = Aufbau der Seite
+- script.js = Funktionen
+- inhalte.js = eure Inhalte (am häufigsten bearbeiten)

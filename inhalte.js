@@ -1,0 +1,77 @@
+/*
+  PLANSCHBLECH – INHALTE BEARBEITEN
+  ---------------------------------
+  Diese Datei ist absichtlich einfach gehalten.
+  Texte zwischen '...' kannst du direkt ändern.
+  Neue Repertoire-Stücke einfach als neue Zeile in die passende Liste setzen.
+  Bei Bildern nur den Dateinamen/Pfad ändern.
+*/
+
+window.PLANSCHBLECH = {
+  kontakt: {
+    email: 'planschblech.info@gmail.com',
+    instagram: '@planschblech',
+    instagramLink: '#'
+  },
+
+  start: {
+    untertitel: 'DAS BLECHENSEMBLE AUS FORCHHEIM',
+    beschreibung: 'Fünf junge Musiker, ein Name aus dem Pool und ein Sound, der von Pop und Jazz bis zu traditioneller Blasmusik reicht.',
+    musiker: '5',
+    stuecke: '18',
+    gegruendet: '2026'
+  },
+
+  mitglieder: [
+    {
+      id: 'vincent', initial: 'V', name: 'Vincent Eckert', alter: '18 Jahre', instrument: 'Trompete',
+      bio: 'Spielt Trompete im Kreisorchester Bamberg und im Bezirksorchester Oberfranken des Nordbayerischen Musikbundes. Außerdem aktiv in der Stadtkapelle Bamberg, dem Jugendorchester Bamberg und dem Blasorchester Klangfusion.',
+      tags: ['Kreisorchester Bamberg','Bezirksorchester Oberfranken','Stadtkapelle Bamberg','Jugendorchester Bamberg','Klangfusion']
+    },
+    {
+      id: 'jonas', initial: 'J', name: 'Jonas Hubert', alter: '', instrument: 'Trompete',
+      bio: 'Trompeter bei Planschblech – und Gastgeber des legendären Pools, in dem die Idee für das Ensemble entstanden ist.',
+      tags: ['Planschblech','Trompete','Forchheim']
+    },
+    {
+      id: 'julius', initial: 'J', name: 'Julius Eckert', alter: '', instrument: 'Bariton',
+      bio: 'Sorgt mit dem Bariton für das warme Fundament und die tiefen Linien im Planschblech-Sound.',
+      tags: ['Planschblech','Bariton','Brass']
+    },
+    {
+      id: 'elias', initial: 'E', name: 'Elias Froese', alter: '', instrument: 'Posaune',
+      bio: 'Posaunist bei Planschblech und zuständig für Druck, Groove und alles, was mit Zug noch besser klingt.',
+      tags: ['Planschblech','Posaune','Groove']
+    },
+    {
+      id: 'manuel', initial: 'M', name: 'Manuel Ditze', alter: '', instrument: 'Posaune',
+      bio: 'Posaunist bei Planschblech. Zwischen sattem Brass-Sound, modernen Arrangements und jeder Menge Spaß auf der Bühne.',
+      tags: ['Planschblech','Posaune','Forchheim']
+    }
+  ],
+
+  repertoire: [
+    { kategorie: 'Pop / Rock', icon: '🎸', offen: true, stuecke: [
+      ['Steppin\' Out',''], ['Yellow Submarine','76'], ['Mamma Mia',''], ['Copacabana','84+'], ['Tom and Jerry','149'], ['Sweet Caroline','107']
+    ]},
+    { kategorie: 'Volksmusik / Traditionell', icon: '⛰️', offen: false, stuecke: [
+      ['Tiroler Adlermarsch','38'], ['Trompetenpolka','33']
+    ]},
+    { kategorie: 'Jazz', icon: '🎷', offen: false, stuecke: [
+      ['Hallelujah Drive',''], ['Music to Watch Girls By','81'], ['Spanish Flea','83'], ['Tijuana Taxi','84'], ['Down by the Riverside','30']
+    ]},
+    { kategorie: 'Swing', icon: '🎺', offen: false, stuecke: [
+      ['String of Pearls','151'], ['Second Waltz','42'], ['Share My Yoke','49']
+    ]},
+    { kategorie: 'Ballade', icon: '♬', offen: false, stuecke: [
+      ['You Raise Me Up','102']
+    ]}
+  ],
+
+  galerie: [
+    { bild: 'assets/pool-front.jpeg', titel: 'WO ALLES BEGANN', text: 'Pool Session · Reuth', klasse: 'tall' },
+    { bild: 'assets/live-group.jpeg', titel: 'LIVE IN FORCHHEIM', text: 'Sommer, Brass & Publikum', klasse: 'wide' },
+    { bild: 'assets/live-duo.jpeg', titel: 'UNTER DER LINDE', text: 'Auftritt in Forchheim', klasse: 'medium' },
+    { bild: 'assets/pool-side.jpeg', titel: 'PLANSCH', text: 'Der Name ist Programm', klasse: 'tall' }
+  ]
+};
