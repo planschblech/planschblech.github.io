@@ -69,9 +69,9 @@ window.PLANSCHBLECH = {
   ],
 
   galerie: [
-    { bild: 'assets/pool-front.jpeg', titel: 'WO ALLES BEGANN', text: 'Pool Session · Reuth', klasse: 'tall' },
-    { bild: 'assets/live-group.jpeg', titel: 'LIVE IN FORCHHEIM', text: 'Sommer, Brass & Publikum', klasse: 'wide' },
-    { bild: 'assets/live-duo.jpeg', titel: 'UNTER DER LINDE', text: 'Auftritt in Forchheim', klasse: 'medium' },
-    { bild: 'assets/pool-side.jpeg', titel: 'PLANSCH', text: 'Der Name ist Programm', klasse: 'tall' }
+    { bild: '', titel: 'WO ALLES BEGANN', text: 'Pool Session · Reuth', klasse: 'tall' },
+    { bild: '', titel: 'LIVE IN FORCHHEIM', text: 'Sommer, Brass & Publikum', klasse: 'wide' },
+    { bild: '', titel: 'UNTER DER LINDE', text: 'Auftritt in Forchheim', klasse: 'medium' },
+    { bild: '', titel: 'PLANSCH', text: 'Der Name ist Programm', klasse: 'tall' }
   ]
 };
