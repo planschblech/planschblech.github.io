@@ -26,27 +26,27 @@ window.PLANSCHBLECH = {
     {
       id: 'vincent', initial: 'V', name: 'Vincent Eckert', alter: '18 Jahre', instrument: 'Trompete',
       bio: 'Schwimmen',
-      tags: ['Kreisorchester Bamberg','Bezirksorchester Oberfranken','Stadtkapelle Bamberg','Jugendorchester Bamberg','Klangfusion']
+      tags: ['Planschblech','Kreisorchester Bamberg','Bezirksorchester Oberfranken','Stadtkapelle Bamberg','Jugendorchester Bamberg','Blasorchester Klangfusion']
     },
     {
       id: 'jonas', initial: 'J', name: 'Jonas Hubert', alter: '18 Jahre', instrument: 'Trompete',
       bio: 'Trompeter bei Planschblech – und Gastgeber des legendären Pools, in dem die Idee für das Ensemble entstanden ist.',
-      tags: ['Planschblech','Trompete','Forchheim']
+      tags: ['Planschblech','Musikkapelle Reuth','Bläserphilharmonie Forchheim']
     },
     {
       id: 'julius', initial: 'J', name: 'Julius Eckert', alter: '20 Jahre', instrument: 'Bariton',
       bio: 'Sorgt mit dem Bariton für das warme Fundament und die tiefen Linien im Planschblech-Sound.',
-      tags: ['Planschblech','Bariton','Brass']
+      tags: ['Planschblech','Bläserphilharmonie Forchheim','Bezirksorchester Oberfranken','Nordbayrisches Jungendblasorchester']
     },
     {
       id: 'elias', initial: 'E', name: 'Elias Froese', alter: '16 Jahre', instrument: 'Posaune',
       bio: 'Posaunist bei Planschblech und zuständig für Druck, Groove und alles, was mit Zug noch besser klingt.',
-      tags: ['Planschblech','Posaune','Groove']
+      tags: ['Planschblech','Blasorchester Klangfusion']
     },
     {
       id: 'manuel', initial: 'M', name: 'Manuel Ditze', alter: '19 Jahre', instrument: 'Posaune',
       bio: 'Posaunist bei Planschblech. Zwischen sattem Brass-Sound, modernen Arrangements und jeder Menge Spaß auf der Bühne.',
-      tags: ['Planschblech','Posaune','Forchheim']
+      tags: ['Planschblech','Bläserphilharmonie Forchheim','HGF BigBand']
     }
   ],
 
