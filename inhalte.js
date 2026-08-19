@@ -25,7 +25,7 @@ window.PLANSCHBLECH = {
   mitglieder: [
     {
       id: 'vincent', initial: 'V', name: 'Vincent Eckert', alter: '18 Jahre', instrument: 'Trompete',
-      bio: 'Spielt Trompete im Kreisorchester Bamberg und im Bezirksorchester Oberfranken des Nordbayerischen Musikbundes. Außerdem aktiv in der Stadtkapelle Bamberg, dem Jugendorchester Bamberg und dem Blasorchester Klangfusion.',
+      bio: 'Schwimmen',
       tags: ['Kreisorchester Bamberg','Bezirksorchester Oberfranken','Stadtkapelle Bamberg','Jugendorchester Bamberg','Klangfusion']
     },
     {
