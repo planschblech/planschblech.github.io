@@ -52,19 +52,19 @@ window.PLANSCHBLECH = {
 
   repertoire: [
     { kategorie: 'Pop / Rock', icon: '🎸', offen: true, stuecke: [
-      ['Steppin\' Out',''], ['Yellow Submarine','76'], ['Mamma Mia',''], ['Copacabana','84+'], ['Tom and Jerry','149'], ['Sweet Caroline','107']
+      ['Steppin\' Out'], ['Yellow Submarine'], ['Mamma Mia'], ['Copacabana'], ['Tom and Jerry'], ['Sweet Caroline']
     ]},
     { kategorie: 'Volksmusik / Traditionell', icon: '⛰️', offen: false, stuecke: [
-      ['Tiroler Adlermarsch','38'], ['Trompetenpolka','33']
+      ['Tiroler Adlermarsch'], ['Trompetenpolka']
     ]},
     { kategorie: 'Jazz', icon: '🎷', offen: false, stuecke: [
-      ['Hallelujah Drive',''], ['Music to Watch Girls By','81'], ['Spanish Flea','83'], ['Tijuana Taxi','84'], ['Down by the Riverside','30']
+      ['Hallelujah Drive'], ['Music to Watch Girls By'], ['Spanish Flea'], ['Tijuana Taxi'], ['Down by the Riverside']
     ]},
     { kategorie: 'Swing', icon: '🎺', offen: false, stuecke: [
-      ['String of Pearls','151'], ['Second Waltz','42'], ['Share My Yoke','49']
+      ['String of Pearls'], ['Second Waltz'], ['Share My Yoke']
     ]},
     { kategorie: 'Ballade', icon: '♬', offen: false, stuecke: [
-      ['You Raise Me Up','102']
+      ['You Raise Me Up']
     ]}
   ],
 
